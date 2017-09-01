@@ -19,3 +19,8 @@ var kittens = ["Milo", "Otis", "Garfield"]
 function destructivelyPrependKitten (name){
   return kittens.unshift (name)
 }
+
+var kittens = ["Milo", "Otis", "Garfield"]
+function appendKitten(kittens){
+  return 
+}
