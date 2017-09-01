@@ -11,11 +11,11 @@ function destructivelyRemoveLastKitten(){
 }
 
 var kittens = ["Milo", "Otis", "Garfield"]
-function destuctivelyPrependKitten (name){
-  return kittens.unshift (name)
+function destructivelyRemoveFirstKitten (name){
+  return kittens.shift (name)
 }
 
 var kittens = ["Milo", "Otis", "Garfield"]
-function destructivelyRemoveFirstKitten (name){
-  return kittens.shift (name)
+function destructivelyPrependKitten (name){
+  return kittens.unshift (name)
 }
