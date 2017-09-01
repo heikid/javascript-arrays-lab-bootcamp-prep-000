@@ -7,5 +7,5 @@ function destructivelyAppendKitten (name){
 
 var kittens = ["Milo", "Otis", "Garfield"]
 function destuctivelyPrependKitten (name){
-  return kittens.unshift (name)
+  return kittens.unshift (name, ...kittens)
 }
