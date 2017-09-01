@@ -14,3 +14,8 @@ var kittens = ["Milo", "Otis", "Garfield"]
 function destuctivelyPrependKitten (name){
   return kittens.unshift (name)
 }
+
+var kittens = ["Milo", "Otis", "Garfield"]
+function destructivelyRemoveFirstKitten (name){
+  return kittens.shift (name)
+}
